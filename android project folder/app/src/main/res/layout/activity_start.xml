@@ -23,11 +23,13 @@
                 android:layout_height="150px">
 
                 <ImageView
+                    android:id="@+id/titleImage"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@color/black"/>
 
                 <TextView
+                    android:id="@+id/titleText"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="TEST PROGRAM"
@@ -51,6 +53,7 @@
                     android:text="00:00 - 00:00"/>
 
                 <ImageView
+                    android:id="@+id/channelLogo"
                     android:layout_alignParentStart="@id/channelText"
                     android:layout_toLeftOf="@id/channelText"
                     android:layout_width="25sp"
@@ -77,6 +80,7 @@
                 android:orientation="horizontal">
 
                 <Button
+                    android:id="@+id/recordButton"
                     android:layout_width="0dp"
                     android:layout_marginTop="3dp"
                     android:layout_marginLeft="10dp"
@@ -87,6 +91,7 @@
                     android:background="@drawable/button"/>
 
                 <ImageButton
+                    android:id="@+id/notifyButton"
                     android:layout_width="0dp"
                     android:width="0dp"
                     android:layout_marginTop="3dp"
@@ -103,6 +108,7 @@
 
 
             <TextView
+                android:id="@+id/descriptionText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pellentesque, turpis a sollicitudin auctor, est sem porta mauris, et aliquam."/>
